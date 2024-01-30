@@ -5,6 +5,7 @@
 .bodycontainer {
   max-width: 1440px;
   width: 100%;
+  box-sizing: border-box;
 }
 .contentcontainer {
   max-width: 1280px;
@@ -43,9 +44,11 @@
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .proquantity {
   max-width: 143px;
+  width: 100%;
   color: #4b5563;
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
@@ -55,8 +58,9 @@
 .sbox {
   width: 97px;
   height: 42px;
-  border-radius: 1px;
   background: #f9fafb;
+  display: flex;
+  justify-items: center;
 }
 .itemscontainer {
   width: 81px;
@@ -76,6 +80,7 @@
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  margin-top: 2px;
   line-height: 14px;
 }
 .gridcontainer {
@@ -89,6 +94,7 @@
 }
 .seriesandcolors {
   max-width: 405px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -102,6 +108,7 @@
 }
 .product1series {
   max-width: 150px;
+  width: 100%;
   color: #1f2937;
   font-family: "Work Sans", sans-serif;
   margin-top: 24px;
@@ -120,13 +127,18 @@
   position: relative;
 }
 .lrbutton{
-  width: 405px; 
+  width: 405px;
+  width: 100%; 
   height: 60px; 
   display: flex;
   justify-content: space-between;
   position: absolute;
   bottom: 0px;
   z-index: 1;
+  display: none;
+}
+.item1:hover .lrbutton{
+  display: flex;
 }
 .lbutton{
   width: 60px;
@@ -207,9 +219,11 @@ button:focus {
 
 .product1pandf {
   max-width: 405px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
+  align-items: center;
 }
 .product1 {
   max-width: 78px;
@@ -223,6 +237,7 @@ button:focus {
 
 .product3series {
   max-width: 162px;
+  width: 100%;
   margin-top: 24px;
   color: #1f2937;
   font-family: "Work Sans", sans-serif;
@@ -242,7 +257,7 @@ button:focus {
   cursor: pointer;
 }
 .fav:active{
-  fill: #1f2937; 
+  fill: #1f2937;
  }
  a{
   text-decoration: none;
