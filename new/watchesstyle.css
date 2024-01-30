@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bodycontainer {
+  max-width: 1440px;
+  width: 100%;
+}
+.contentcontainer {
+  max-width: 1280px;
+  width: 100%;
+  margin-top: 48px;
+  margin-left: 80px;
+}
+.heading {
+  max-width: 148px;
+  width: 100%;
+  margin-top: 24px;
+}
+.text1 p {
+  max-width: 86px;
+  color: #4b5563;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.home-men:hover{
+  cursor: pointer;
+}
+.watches h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+  color: #1f2937;
+}
+.watches:hover{
+  cursor: pointer;
+}
+.proandfilter {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.proquantity {
+  max-width: 143px;
+  color: #4b5563;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sbox {
+  width: 97px;
+  height: 42px;
+  border-radius: 1px;
+  background: #f9fafb;
+}
+.itemscontainer {
+  width: 81px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 8px;
+}
+.ficon {
+  width: 22px;
+  height: 18px;
+}
+.filterbtn {
+  width: 44px;
+  height: 14px;
+  color: #4b5563;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.gridcontainer {
+  width: 100%;
+  margin-top: 56px;
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 80px;
+  column-gap: 32px;
+}
+.seriesandcolors {
+  max-width: 405px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  min-height: 30px;
+}
+.seriesandcolors:hover{
+  cursor: pointer;
+}
+.sbox:hover{
+  cursor: pointer;
+}
+.product1series {
+  max-width: 150px;
+  color: #1f2937;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+.itemimage :hover.image{
+  cursor: pointer;
+  opacity: 0.3;
+}
+.itemimage{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.lrbutton{
+  width: 405px; 
+  height: 60px; 
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+.lbutton{
+  width: 60px;
+  background: #FFFFFF;
+  height: 60px;
+}
+.licon{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  background: transparent;
+}
+.rbutton{
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+}
+.licon:focus{
+  border: none;
+}
+.ricon{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  background: transparent;
+}
+.ricon:focus{
+  border: none;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+ }
+.buttons{
+  background: transparent;
+  border: none;
+  padding: 1px;
+  border-radius: 100%;
+  height: fit-content;
+}
+.red-color{
+  width: 30px;
+  height: 30px;
+  background-color: #991B1B;
+  border-radius: 100%;
+  border: none;
+}
+.blue-color{
+  width: 30px;
+  height: 30px;
+  background-color: #1D4ED8;
+  border-radius: 100%;
+  border: none;
+}
+.black-color{
+  width: 30px;
+  height: 30px;
+  background-color: #1F2937;
+  border-radius: 100%;
+  border: none;
+}
+
+button:focus {
+border-radius: 100%;
+border: 1px solid rgba(8, 3, 3, 0.794);
+
+}
+button:hover{
+cursor: pointer;
+}
+button:focus {
+  border: 1px solid black;
+}
+
+.product1pandf {
+  max-width: 405px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.product1 {
+  max-width: 78px;
+  color: #1f2937;
+  text-align: right;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.product3series {
+  max-width: 162px;
+  margin-top: 24px;
+  color: #1f2937;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px; 
+  letter-spacing: -0.48px;
+}
+.fav{
+  border: none;
+  background: transparent;
+}
+.fav:focus{
+  border: none;
+} 
+.fav:hover{
+  cursor: pointer;
+}
+.fav:active{
+  fill: #1f2937; 
+ }
+ a{
+  text-decoration: none;
+  color: #1F2937;
+ }
+ 
