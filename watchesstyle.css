@@ -1,18 +1,15 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .bodycontainer {
   max-width: 1440px;
   width: 100%;
   box-sizing: border-box;
+  margin-inline: auto;
 }
-.contentcontainer {
-  max-width: 1280px;
-  width: 100%;
-  margin-top: 48px;
-  margin-left: 80px;
-}
+
 .heading {
   max-width: 148px;
   width: 100%;
@@ -171,51 +168,67 @@
   border: none;
 }
 .btn{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
+  min-height: 36px;
  }
 .buttons{
+ position: relative;
+ height: 31px;
+ width: 32px;
   background: transparent;
   border: none;
   padding: 1px;
   border-radius: 100%;
-  height: fit-content;
-}
-.red-color{
-  width: 30px;
-  height: 30px;
-  background-color: #991B1B;
-  border-radius: 100%;
-  border: none;
-}
-.blue-color{
-  width: 30px;
-  height: 30px;
-  background-color: #1D4ED8;
-  border-radius: 100%;
-  border: none;
-}
-.black-color{
-  width: 30px;
-  height: 30px;
-  background-color: #1F2937;
-  border-radius: 100%;
-  border: none;
 }
 
-button:focus {
-border-radius: 100%;
-border: 1px solid rgba(8, 3, 3, 0.794);
+.button-container {
+  display: flex;
+  gap: 8px;
+}
 
+.custom-button {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 100%;
+  border: none
 }
-button:hover{
-cursor: pointer;
-}
-button:focus {
+
+.custom-button:focus {
   border: 1px solid black;
 }
+
+.bg-div {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.custom-button.purple .bg-div {
+  background-color: #1f2937;
+}
+.custom-button.redd .bg-div {
+  background-color: #991B1B;
+}
+.custom-button.bluee .bg-div {
+  background-color: #1D4ED8;
+}
+.buttons:focus {
+border-radius: 100%;
+border: 1px solid rgba(8, 3, 3, 0.794);
+}
+button:hover{
+  cursor: pointer;
+}
+/
 
 .product1pandf {
   max-width: 405px;
