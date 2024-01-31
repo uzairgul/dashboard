@@ -8,23 +8,23 @@
   width: 100%;
   box-sizing: border-box;
   margin-inline: auto;
-  padding: 40px 80px ;
+  padding: 40px 80px;
 }
 
 .heading {
-  max-width: 148px;
+  max-width: 125px;
   width: 100%;
   margin-top: 24px;
 }
 .text1 p {
-  max-width: 86px;
+  max-width: 78px;
   color: #4b5563;
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
 }
-.home-men:hover{
+.home-men:hover {
   cursor: pointer;
 }
 .watches h1 {
@@ -34,10 +34,11 @@
   letter-spacing: -0.72px;
   color: #1f2937;
 }
-.watches:hover{
+.watches:hover {
   cursor: pointer;
 }
 .proandfilter {
+  max-width: 1440px;
   width: 100%;
   margin-top: 16px;
   display: flex;
@@ -54,25 +55,28 @@
   line-height: 24px;
 }
 .sbox {
-  width: 97px;
+  max-width: 87px;
+  width: 100%;
   height: 42px;
   background: #f9fafb;
   display: flex;
   justify-items: center;
 }
 .itemscontainer {
-  width: 81px;
+  max-width: 81px;
+  width: 100%;
   height: 18px;
   display: flex;
   justify-content: space-between;
   padding: 12px 8px;
+  gap: 8px;
 }
 .ficon {
   width: 22px;
   height: 18px;
 }
 .filterbtn {
-  width: 44px;
+  /* width: px; */
   height: 14px;
   color: #4b5563;
   font-family: "Work Sans", sans-serif;
@@ -82,6 +86,7 @@
   line-height: 14px;
 }
 .gridcontainer {
+  /* max-width: 1440px; */
   width: 100%;
   margin-top: 56px;
   margin-bottom: 48px;
@@ -98,10 +103,10 @@
   align-items: end;
   min-height: 30px;
 }
-.seriesandcolors:hover{
+.seriesandcolors:hover {
   cursor: pointer;
 }
-.sbox:hover{
+.sbox:hover {
   cursor: pointer;
 }
 .product1series {
@@ -115,88 +120,86 @@
   line-height: 24px;
   letter-spacing: -0.48px;
 }
-.itemimage :hover.image{
+.itemimage :hover.image {
   cursor: pointer;
   opacity: 0.3;
 }
-.itemimage{
+.itemimage {
   width: 100%;
   height: 400px;
   position: relative;
 }
-.lrbutton{
-  width: 405px;
-  width: 100%; 
-  height: 60px; 
+.lrbutton {
+  max-width: 405px;
+  width: 100%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   position: absolute;
   bottom: 0px;
-  z-index: 1;
+  /* z-index: 1; */
   display: none;
 }
-.item1:hover .lrbutton{
+.itemimage:hover .lrbutton {
   display: flex;
 }
-.lbutton{
+.lbutton {
   width: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   height: 60px;
 }
-.licon{
+.licon {
   width: 40px;
   height: 40px;
   margin: 10px;
   border: none;
   background: transparent;
 }
-.rbutton{
+.rbutton {
   width: 60px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-.licon:focus{
+.licon:focus {
   border: none;
 }
-.ricon{
+.ricon {
   width: 40px;
   height: 40px;
   margin: 10px;
   border: none;
   background: transparent;
 }
-.ricon:focus{
+.ricon:focus {
   border: none;
 }
-.btn{
+.btn {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 6px;
   min-height: 36px;
- }
-.buttons{
- position: relative;
- height: 31px;
- width: 32px;
+}
+.buttons {
+  position: relative;
+  height: 31px;
+  width: 32px;
   background: transparent;
   border: none;
   padding: 1px;
   border-radius: 100%;
 }
-
 .button-container {
   display: flex;
   gap: 8px;
 }
-
 .custom-button {
   width: 30px;
   height: 30px;
   position: relative;
   border-radius: 100%;
-  border: none
+  border: none;
 }
 
 .custom-button:focus {
@@ -212,25 +215,31 @@
   inset: 0;
   margin: auto;
 }
-
-.custom-button.purple .bg-div {
+.custom-button.black .bg-div {
   background-color: #1f2937;
 }
-.custom-button.redd .bg-div {
-  background-color: #991B1B;
+.custom-button.red .bg-div {
+  background-color: #991b1b;
 }
-.custom-button.bluee .bg-div {
-  background-color: #1D4ED8;
+.custom-button.blue .bg-div {
+  background-color: #1d4ed8;
+}
+.custom-button.yellow .bg-div {
+  background-color: #e2e90b;
+}
+.custom-button.orange .bg-div {
+  background-color: #b96006;
+}
+.custom-button.grey .bg-div {
+  background-color: #15d2d5;
 }
 .buttons:focus {
-border-radius: 100%;
-border: 1px solid rgba(8, 3, 3, 0.794);
+  border-radius: 100%;
+  border: 1px solid #1f2937;
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
-/
-
 .product1pandf {
   max-width: 405px;
   width: 100%;
@@ -241,6 +250,7 @@ button:hover{
 }
 .product1 {
   max-width: 78px;
+  width: 100%;
   color: #1f2937;
   text-align: right;
   font-family: "Work Sans", sans-serif;
@@ -248,7 +258,6 @@ button:hover{
   font-weight: 400;
   line-height: 20px;
 }
-
 .product3series {
   max-width: 162px;
   width: 100%;
@@ -257,24 +266,23 @@ button:hover{
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: -0.48px;
 }
-.fav{
+.fav {
   border: none;
   background: transparent;
 }
-.fav:focus{
+.fav:focus {
   border: none;
-} 
-.fav:hover{
+}
+.fav:hover {
   cursor: pointer;
 }
-.fav:active{
+.fav:active {
   fill: #1f2937;
- }
- a{
+}
+a {
   text-decoration: none;
-  color: #1F2937;
- }
- 
+  color: #1f2937;
+}
