@@ -269,20 +269,18 @@ button:hover {
   line-height: 24px;
   letter-spacing: -0.48px;
 }
-.fav {
-  border: none;
-  background: transparent;
-}
-.fav:focus {
-  border: none;
-}
-.fav:hover {
-  cursor: pointer;
-}
-.fav:active {
-  fill: #1f2937;
-}
 a {
   text-decoration: none;
   color: #1f2937;
 }
+
+.fav2 {
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.fav2:focus {
+color: #1f2937;
+}
+
