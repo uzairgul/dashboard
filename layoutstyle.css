@@ -554,6 +554,14 @@ table {
   border: none;
 }
 
+#checkbox{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--Slate-400, #94a3b8);
+}
+
 #customers {
   border-collapse: collapse;
   width: 100%;
@@ -575,15 +583,6 @@ table {
   text-align: end;
 }
 
-.soldout {
-  color: #dc2626;
-  font-family: Inter;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  letter-spacing: 0em;
-  text-align: left;
-}
 .row11 {
   padding: 16px 12px 24px 0px;
   display: flex;
