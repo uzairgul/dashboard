@@ -251,11 +251,25 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  /* justify-items: left; */
 }
 .dropdownbutton {
   padding-right: 5px;
+}
+.name{
+  width: 83px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.mail{
+font-family: Inter;
+font-weight: 400;
+
 }
 
 .dashboard h1 {
