@@ -23,6 +23,7 @@ button:hover {
   /* box-sizing: border-box; */
   margin-inline: auto;
   background: #f1f5f9;
+  min-height: 100vh;
 }
 
 .leftflexcontainer {
@@ -36,6 +37,7 @@ button:hover {
 .toolbar {
   /* max-width: 52px; */
   /* width: 100%; */
+  min-height: 100vh;
   padding: 16px 12px;
   display: flex;
   flex-direction: column;
@@ -178,8 +180,8 @@ button:hover {
   /* border-bottom: 1px solid black; */
   padding-bottom: 32px;
   /* margin-left: 10px; */
-  padding-right: 28px;
-  padding-left: 28px;
+  /* padding-right: 28px; */
+  /* padding-left: 28px; */
 }
 
 .uppernav {
@@ -195,7 +197,7 @@ button:hover {
   /* max-width: 1280px; */
   width: 100%;
   height: 72px;
-  border-bottom: 1px solid #94a3b8;
+  border-bottom: 1px solid #CBD5E1;
   display: flex;
   justify-content: space-between;
   /* gap: 614px; */
@@ -205,15 +207,14 @@ button:hover {
   max-width: 260px;
   width: 100%;
   display: flex;
-  gap: 8px;
+  gap: 18px;
   align-items: center;
   padding: 12px 16px;
   margin: 16px 24px;
   background-color: #f1f5f9;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #CDE5E1;
   border-radius: 5px;
 }
-
 .searchicon {
   width: 9.33px;
   height: 9.33px;
@@ -234,9 +235,8 @@ button:hover {
 .notandmail {
   max-width: 330px;
   width: 100%;
-  border-left: 1px #94a3b8;
+  border-left: 1px solid #CBD5E1;
   display: flex;
-  border-left: 1px solid black;
   justify-content: space-between;
 }
 .bellicon {
@@ -311,7 +311,7 @@ font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 8px;
+  margin-right: 18px;
   box-sizing: border-box;
 }
 
@@ -331,7 +331,7 @@ font-weight: 400;
   align-items: center;
   padding: 12px 16px;
   background-color: #fff;
-  border: 1px solid black;
+  border: 1px solid #CBD5E1;
   border-radius: 5px;
 }
 .searchicon2 {
@@ -350,14 +350,25 @@ font-weight: 400;
   letter-spacing: 0px;
   text-align: left;
 }
-
+.twobuttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+.ffbtn{
+  display: flex;
+  background: #fff;
+  color: #1d4ed8;
+  outline: none;
+  border: none;
+}
 .fbtn {
-  width: 110px;
-  height: 44px;
+  /* width: 130px; */
+  /* height: 44px; */
   display: inline-flex;
   background: #fff;
   color: #1d4ed8;
-  padding: 14px 20px;
+  padding: 14px 10px;
   justify-content: center;
   align-items: center;
   gap: 10px;
